@@ -3,8 +3,6 @@
   flex-direction: column;
   justify-content: flex-end;
   align-self: flex-end;
-  width: 50%;
-  height: 90%;
   padding: 10px;
   position: relative;
 }
@@ -35,4 +33,15 @@
 
 #app {
   padding: 5%;
+}
+
+#headshot {
+  height: 50%;
+  width: 50%;
+  padding-right: 5%;
+}
+
+.headshotContainer {
+  display: flex;
+  flex-direction: row;
 }
