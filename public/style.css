@@ -1,3 +1,4 @@
+/* id styles */
 #aboutMeContainer {
   display: flex;
   flex-direction: column;
@@ -5,29 +6,6 @@
   align-self: flex-end;
   padding: 10px;
   position: relative;
-}
-
-#linksContainer {
-  display:flex;
-  flex-direction: row;
-  justify-content: center;
-  padding-top: 2%;
-}
-
-.header{
-  padding-bottom: 2%;
-}
-
-.icon{
-  height: 20px;
-  width: 20px;
-  margin: 5px;
-}
-
-.appWrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
 #aboutMeText {
@@ -46,12 +24,38 @@
   padding-right: 5%;
 }
 
+#linksContainer {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 2%;
+}
+
+/* up for debate */
+#projectLink{   
+  padding-top: 100px;   
+}
+
+/* class styles */
+.appWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header{
+  padding-bottom: 2%;
+}
+
 .headshotContainer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-#projects{
-  padding-top: 5%;
+.icon{
+  height: 20px;
+  width: 20px;
+  margin: 5px;
 }
+

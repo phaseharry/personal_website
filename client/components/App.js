@@ -1,15 +1,18 @@
 import React from 'react'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
-import SidePop from './SidePop'
+import Main from './Main'
 import Projects from './Projects'
 
 class App extends React.Component{
   render(){ 
     return (
-      <div className='appWrapper'> 
-        <SidePop/>
-        <Projects/>
-      </div>
+      <Router>
+        <Switch>
+          <Route exact path='/' component={Main}/>
+          <Route path='/projects' component={Projects}/>
+        </Switch>
+      </Router>
     )
   }
 }
