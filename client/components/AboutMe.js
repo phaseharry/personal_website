@@ -26,6 +26,9 @@ class AboutMe extends React.Component{
             <Avatar className='icon' src='/public/medium-icon-21.jpg'/>
           </a>
         </div>
+        <a href='#projects' id='projectLink'>
+          <Typography align='center' variant='h6'>Projects</Typography>
+        </a>
       </div>
     )
   }

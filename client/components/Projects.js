@@ -8,12 +8,8 @@ class Projects extends React.Component{
   render(){
     return (
       <div id='projects'>
-        <Typography align='center' variant='h5'>Projects</Typography>
-        <div>
-          <h4>COMING SOON</h4>
-          <RosettaCapstone />
-          <GraceShopper />
-        </div>
+        <RosettaCapstone />
+        <GraceShopper />
       </div>
     )
   }
