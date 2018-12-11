@@ -5,12 +5,14 @@ class AboutMe extends React.Component{
   render(){
     return (
       <div id='aboutMeText'>
-        <Typography align='center' variant='h5'>Harry Chen</Typography>
-        <Typography align='center' variant='body1'> 
-          I am a Fullstack Engineer, avid biker, and Esports enthusiast. 
+        <Typography align='center' variant='h4' className='header'>Harry Chen</Typography>
+        <Typography align='center' variant='body1' className='header'> 
+          I am a Fullstack Engineer, avid biker, and eSports enthusiast. 
           I love playing around with new technologies and APIs. 
-          I am excited to immerse myself into the New York tech scene 
-          and looking forward to meet great people.
+          I am excited to immerse myself into the New York tech scene.
+        </Typography>
+        <Typography align='center' variant='body1'> 
+          Core Stack: Node, Express, React, Postgres, Sequelize
         </Typography>
         <div id='linksContainer'>
           <a target='_blank' rel='noopener noreferrer' href='https://www.linkedin.com/in/harrychenhc/'>
