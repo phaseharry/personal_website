@@ -1,4 +1,5 @@
 import React from 'react'
+
 import { Typography, Avatar } from '@material-ui/core'
 
 class AboutMe extends React.Component{
@@ -30,4 +31,4 @@ class AboutMe extends React.Component{
   }
 }
 
-module.exports = AboutMe
+export default AboutMe

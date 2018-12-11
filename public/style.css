@@ -27,7 +27,7 @@
 .appWrapper {
   display: flex;
   flex-direction: column;
-  /* justify-content: flex-end; */
+  justify-content: center;
 }
 
 #aboutMeText {
@@ -41,14 +41,15 @@
 }
 
 #headshot {
-  height: 50%;
-  width: 50%;
+  height: 40%;
+  width: 40%;
   padding-right: 5%;
 }
 
 .headshotContainer {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 
 #projects{
