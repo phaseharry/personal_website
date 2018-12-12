@@ -15,7 +15,7 @@
 }
 
 #app {
-  padding: 5%;
+  padding: 3%;
 }
 
 #headshot {
@@ -51,6 +51,13 @@
   justify-content: center;
 }
 
+.graceshopperImg {
+  height: auto;
+  width: 90%;
+  padding-top: 2%;
+  align-self: end;
+}
+
 .header{
   padding-bottom: 2%;
 }
@@ -71,6 +78,12 @@
   align-self: center;
   display: flex;
   flex-direction: row;
+  /* justify-content: space-between; */
+  padding-bottom: 5%;
+}
+
+.projectHeading {
+  padding-bottom: 3%;
 }
 
 .projectMedia {
@@ -80,5 +93,7 @@
 .projectText {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   width: 50%;
+  /* padding-top: 2%; */
 }

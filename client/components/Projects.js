@@ -1,5 +1,4 @@
 import React from 'react'
-import { Typography } from '@material-ui/core'
 
 import RosettaCapstone from './Projects/RosettaCapstone'
 import GraceShopper from './Projects/GraceShopper'
