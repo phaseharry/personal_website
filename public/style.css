@@ -62,6 +62,10 @@
   padding-bottom: 2%;
 }
 
+.heading{
+  padding-top: 24%;
+}
+
 .headshotContainer {
   display: flex;
   flex-direction: row;
@@ -78,16 +82,20 @@
   align-self: center;
   display: flex;
   flex-direction: row;
-  /* justify-content: space-between; */
+  justify-content: space-between;
+  padding-left: 5%;
   padding-bottom: 5%;
 }
 
+.paragraphPro {
+  padding-bottom: 40%;
+}
 .projectHeading {
   padding-bottom: 3%;
 }
 
 .projectMedia {
-  padding-left: 3%;
+  padding-left: 5%;
 }
 
 .projectText {
