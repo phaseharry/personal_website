@@ -7,8 +7,22 @@ class RosettaCapstone extends React.Component{
       <div className='individual'>
         <div className='projectText'>
           <Typography align='center' variant='display1' className='projectHeading'>Rosetta Capstone</Typography>
-          <Typography align='center' variant='body2'>
-            What is Rostta Capstone? Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          <Typography align='center' variant='body2' style={{paddingBottom: '20px'}}>
+            Rosetta Capstone is an interactive learning platform with the goal of teaching English. 
+            Students select their native language. 
+            The teacher's audio stream will be translated and displayed in text form on the students' clients. 
+            Each student will see the teacher's transciption in their own language, but hear the audio in English.
+            They can interact with other students in the built-in chat, where all other languages will be translated 
+            into their selected language.
+          </Typography>
+          <Typography align='center' variant='body2' style={{paddingBottom: '20px'}}>
+            Rosetta Capstone was a team project. 
+            For my part, I mainly worked on integrating a third-party API called SimpleWebRTC.
+            SimpleWebRTC is an abstraction of WebRTC and it allievated the need for us to handle our own STUN and TURN server. 
+            It was an integral part of our project as it handled our video and audio streaming,
+            whose outputs was required as an input for another API. 
+            For example, the audio stream produced by SimpleWebRTC was fed into the Web Speech API for turning speech to text.
+            Check it out  <a target='_blank' rel='noopener noreferrer' href='https://rosetta-capstone.herokuapp.com/'>here</a>!
           </Typography>
         </div>
         <div className='projectMedia'>
