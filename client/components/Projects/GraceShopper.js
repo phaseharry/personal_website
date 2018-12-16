@@ -11,12 +11,13 @@ class GraceShopper extends React.Component{
             One man's trash is another man's treasure.
           </Typography>
           <Typography align='center' variant='body2' style={{paddingBottom: '20px'}}>
-            Fullstacks of Trash is an e-commerce platform made with the intention of selling TRASH. Anonymous and logged-in users can add trash to their carts,
-            remove if necessary, write reviews for products, and checkout their carts via payment.
+            Fullstacks of Trash is an e-commerce platform made with the intention of selling TRASH. 
+            Anonymous and logged-in users can add trash to their carts, remove if necessary, write reviews for products, and checkout their carts via payment.
           </Typography>
           <Typography align='center' variant='body2' className='paragraphPro'  style={{paddingBottom: '20px'}}>
-            The project was built by a team of 4. For my part, I touched both the backend as well as the frontend of the application. 
-            I set up our database models and relationships, designed RESTful API routes, wrote React components, and integrated Stripe for payment processing. 
+            The project was built by a team of 4. 
+            For my part, I touched both the backend as well as the frontend of the application. 
+            I set up our database models and relationships, designed RESTful API routes, wrote React components, and integrated Stripe for payment processing.
             Check it out  <a target='_blank' rel='noopener noreferrer' href='https://fullstacks-of-trash-final.herokuapp.com/'>here</a>!
           </Typography>
         </div>
