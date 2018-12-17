@@ -17,7 +17,7 @@ class GraceShopper extends React.Component{
           <Typography align='center' variant='body2' className='paragraphPro'  style={{paddingBottom: '20px'}}>
             The project was built by a team of 4. 
             For my part, I touched both the backend as well as the frontend of the application. 
-            I set up our database models and relationships, designed RESTful API routes, wrote React components, and integrated Stripe for payment processing.
+            I organized our database models and relationships, designed RESTful API routes, wrote React components, and integrated Stripe for payment processing. 
             Check it out  <a target='_blank' rel='noopener noreferrer' href='https://fullstacks-of-trash-final.herokuapp.com/'>here</a>!
           </Typography>
         </div>

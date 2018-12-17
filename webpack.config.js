@@ -12,7 +12,7 @@ module.exports = {
         exclude: /node_modules/,
       },
       {
-        test: /\.(png|jpg|gif|JPG)$/i
+        test: /\.(png|jpg|gif|JPG|mp4)$/i
       }
     ],
   },

@@ -10,7 +10,7 @@ class RosettaCapstone extends React.Component{
           <Typography align='center' variant='body2' style={{paddingBottom: '20px'}}>
             Rosetta Capstone is an interactive learning platform with the goal of teaching English. 
             Students select their native language. 
-            The teacher's audio stream will be translated and displayed in text form on the students' clients. 
+            The teacher's audio stream will be translated and displayed in text form on the students' clients.
             Each student will see the teacher's transcription in their own language, but hear the audio in English. 
             They can interact with other students in the built-in chat, where all other languages will be translated into their selected language.
           </Typography>
@@ -18,16 +18,16 @@ class RosettaCapstone extends React.Component{
             Rosetta Capstone was a team project. 
             For my part, I mainly worked on integrating a third-party API called SimpleWebRTC. 
             SimpleWebRTC is an abstraction of WebRTC and it alleviated the need for us to handle our own STUN and TURN server. 
-            It was an integral part of our project as it handled our video and audio streaming, whose outputs was required as input for other APIs. 
-            For example, the audio stream produced by SimpleWebRTC was fed into the Web Speech API for turning speech to text. 
+            It was an integral part of our project as it handled our video and audio streaming, where its outputs were required as input for other APIs. 
+            For example, the audio stream produced by SimpleWebRTC was fed into the Web Speech API for turning speech to text.
             Watch our <a target='_blank' rel='noopener noreferrer' href='https://www.youtube.com/watch?v=dQR0uXQ13Rg&feature=youtu.be'>demo</a>
             &nbsp;or check it out <a target='_blank' rel='noopener noreferrer' href='https://rosetta-capstone.herokuapp.com/'>here</a>!
           </Typography>
         </div>
         <div className='projectMedia'>
-          <Typography align='center' variant='display1'>
-            Video will go here
-          </Typography>
+          <video height='100%' width='100%' autoPlay muted loop className='videoComp'>
+            <source src='/public/rosettaCapstone.mp4' type='video/mp4'></source>
+          </video>
         </div>
       </div>
     )
