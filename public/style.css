@@ -1,8 +1,8 @@
 /* id styles */
 #aboutMeContainer {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: flex-end; */
   padding: 10px;
   position: relative;
 }
