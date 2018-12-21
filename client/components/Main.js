@@ -10,9 +10,7 @@ class Main extends React.Component{
     return (
       <div className='appWrapper'> 
         <SidePop/>
-        {/* <Link to='#asdf' id='projectLink'> */}
-        {/* </Link> */}
-          <Projects />
+        <Projects />
       </div>
     )
   }
